@@ -1,0 +1,59 @@
+# Dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Pastas nativas geradas (Continuous Native Generation)
+/ios
+/android
+.kotlin/
+
+# ---------------------------------------------------------------
+# Segurança: variáveis de ambiente e segredos (NUNCA versionar)
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.keystore
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+credentials.json
+*.sqlite
+*.sqlite-journal
+
+# Instruções locais de agentes de IA (não versionar)
+AGENTS.md
+CLAUDE.md
+.claude/
+
+# Template original do create-expo-app (referência local)
+example/
+
+# Metro
+.metro-health-check*
+
+# Logs de debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Arquivos temporários
+*.orig.*
